@@ -9,7 +9,7 @@ var methodOverride = require('method-override');
 // DB Connection
 // var mongoLocal = "mongodb://localhost/test" 
  //mongoose.connect(mongoLocal);
-
+//what the fuck is thies
 var mongoLabURI = process.env.MONGOLAB_URI || 'mongodb://localhost/test';
 
 
