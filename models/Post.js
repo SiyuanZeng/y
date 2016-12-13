@@ -24,7 +24,7 @@ postSchema.virtual('updatedDate').get(function() {
 postSchema.virtual('updatedTime').get(function() {
 	return getTime(this.updatedAt);
 });
-
+//mongo
 var Post = mongoose.model('post', postSchema);
 
 function getDate(dateObj) {

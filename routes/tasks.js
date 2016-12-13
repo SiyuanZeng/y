@@ -5,6 +5,15 @@ var Task = require('../models/Task');
 
 var router = express.Router();
 
+var fs = require('fs');
+fs.readFile( 'C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', function (err, data) {
+    if (err) {
+        throw err;
+    }
+    console.log(data.toString());
+});
+
+
 // Index
 router.get('/', function(req, res) {
 	Task.find({}, function(err, tasks) {
@@ -17,7 +26,14 @@ router.get('/', function(req, res) {
 router.post('/', function(req, res) {
 	Task.create(req.body, function(err, task) {
 		if (err) res.json(err);
-		res.redirect('/tasks');
+		// res.redirect('/tasks');
+        // fs.readFile( 'C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', function (err, data) {
+        //     if (err) {
+        //         throw err;
+        //     }
+            console.log(Object.prototype.toString.call(req.body));
+            console.log(req.body.toString());
+        // });
 	});
 });
 
