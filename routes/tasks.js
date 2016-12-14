@@ -3,7 +3,8 @@
 var express = require('express');
 var Task = require('../models/k.js');
 var k = require('../models/k');
-
+// all the variable and finction are just connector and it conect somne thing to anotherthing thand that is all you don't have to do that it doesn' mean anything
+// it just mean that it is soging one place to another
 var router = express.Router();
 
 var fs = require('fs');
@@ -175,21 +176,224 @@ function getSeperatedTask(tasks) {
     tasks.forEach(function (task) {
         switch (task.d) {
             case "a":
+                // Create date from input value
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
                 obj.todoTasks.push(task);
+                }
+
+
+
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+                todaysDate .setDate(todaysDate .getDate() - 1);
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.todoTasks.push(task);
+                }
+
+
+
+
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+                todaysDate .setDate(todaysDate .getDate() - 2);
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.todoTasks.push(task);
+                }
                 break;
             // case "d":
             //     obj.d.push(task);
             //     break;
             case "s":
-                obj.inprogressTasks.push(task);
+                // Create date from input value
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.inprogressTasks.push(task);
+                }
+
+
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+                todaysDate .setDate(todaysDate .getDate() - 1);
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.inprogressTasks.push(task);
+                }
+
+
+
+
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+                todaysDate .setDate(todaysDate .getDate() - 2);
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.inprogressTasks.push(task);
+                }
+
+
+
                 break;
             case "d":
-                obj.doneTasks.push(task);
+                // Create date from input value
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.doneTasks.push(task);
+                }
+
+
+
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+                todaysDate .setDate(todaysDate .getDate() - 1);
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.doneTasks.push(task);
+                }
+
+
+
+
+                var inputDate = task.o;
+
+// Get today's date
+                var todaysDate = new Date();
+                todaysDate .setDate(todaysDate .getDate() - 2);
+
+// call setHours to take the time out of the comparison
+                if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                    // Date equals today's date
+                    obj.doneTasks.push(task);
+                }
+
+
+
                 break;            case "o":
+            // Create date from input value
+            var inputDate = task.o;
+
+// Get today's date
+            var todaysDate = new Date();
+
+// call setHours to take the time out of the comparison
+            if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                // Date equals today's date
                 obj.o.push(task);
-                break;            case "k":
+            }
+
+
+
+            var inputDate = task.o;
+
+// Get today's date
+            var todaysDate = new Date();
+            todaysDate .setDate(todaysDate .getDate() - 1);
+
+// call setHours to take the time out of the comparison
+            if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                // Date equals today's date
+                obj.o.push(task);
+            }
+
+
+
+
+            var inputDate = task.o;
+
+// Get today's date
+            var todaysDate = new Date();
+            todaysDate .setDate(todaysDate .getDate() - 2);
+
+// call setHours to take the time out of the comparison
+            if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                // Date equals today's date
+                obj.o.push(task);
+            }
+
+
+
+            break;            case "k":
+            // Create date from input value
+            var inputDate = task.o;
+
+// Get today's date
+            var todaysDate = new Date();
+
+// call setHours to take the time out of the comparison
+            if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                // Date equals today's date
                 obj.j.push(task);
-                break;
+            }
+
+
+            var inputDate = task.o;
+
+// Get today's date
+            var todaysDate = new Date();
+            todaysDate .setDate(todaysDate .getDate() - 1);
+
+// call setHours to take the time out of the comparison
+            if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                // Date equals today's date
+                obj.j.push(task);
+            }
+
+
+
+
+            var inputDate = task.o;
+
+// Get today's date
+            var todaysDate = new Date();
+            todaysDate .setDate(todaysDate .getDate() - 2);
+
+// call setHours to take the time out of the comparison
+            if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+                // Date equals today's date
+                obj.j.push(task);
+            }
+
+            break;
         }
     });
 

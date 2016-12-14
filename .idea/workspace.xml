@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c5e562-096e-4676-a588-33195a133977" name="Default" comment="k">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/tasks.js" afterPath="$PROJECT_DIR$/routes/tasks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tasks/index.ejs" afterPath="$PROJECT_DIR$/views/tasks/index.ejs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="tasks.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="17">
+              <caret line="172" column="6" lean-forward="true" selection-start-line="172" selection-start-column="6" selection-end-line="172" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -792,7 +789,7 @@
       <updated>1481513581097</updated>
       <workItem from="1481513584608" duration="1463000" />
       <workItem from="1481515997073" duration="1957000" />
-      <workItem from="1481524327966" duration="26503000" />
+      <workItem from="1481524327966" duration="27812000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1481513784703</created>
@@ -833,7 +830,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29923000" />
+    <option name="totallyTimeSpent" value="31232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="130" width="1918" height="862" extended-state="0" />
@@ -1218,14 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/k.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1258,10 +1247,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/tasks.js">
+    <entry file="file://$PROJECT_DIR$/models/k.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="172" column="6" lean-forward="true" selection-start-line="172" selection-start-column="6" selection-end-line="172" selection-end-column="6" />
           <folding />
         </state>
       </provider>
