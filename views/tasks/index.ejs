@@ -30,22 +30,6 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<ul class="list-group">
-						<li class="list-group-item active">To-Do<span class="badge"><%= tasks.todoTasks.length %></span></li>
-						<% tasks.todoTasks.forEach(function(task) { %>
-						<div class="input-group">
-							<li class="list-group-item"><%= task.my_task %></li>
-							<span class="input-group-btn">	
-								<form action="/tasks/<%= task._id %>?_method=put" method="post">
-									<input type="hidden" name="status" value="in-progress">
-									<button class="btn btn-success" type="submit"><strong><span class="glyphicon glyphicon-check" aria-hidden="true"></span></strong></button>					
-								</form>
-							</span>
-						</div>
-						<% }) %>
-					</ul>
-				</div>
-				<div class="col-sm-4">
-					<ul class="list-group">
 						<li class="list-group-item active">Word of the day<span class="badge"><%= tasks.inprogressTasks.length %></span></li>
 						<% tasks.inprogressTasks.forEach(function(task) { %>
 						<div class="input-group">

@@ -2,12 +2,12 @@
 
 var mongoose = require('mongoose');
 
-var l= mongoose.Schema({
+var j= mongoose.Schema({
 	s: {type: String, required: true},
 	l: {type: Number,required: true}	,
 	o: {type: Date, required: true}
 });
 
-var k = mongoose.model('k', l);
+var js = mongoose.model('k', j);
 
-module.exports = k;
+module.exports = js;
