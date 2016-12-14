@@ -54,6 +54,8 @@ fs.readFile( 'C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', 
     }
     // var a = JSON.parse(data.string);
 
+    if (data)
+        return;
     var obj = JSON.parse(data);
 
     var length = obj.employees.length;

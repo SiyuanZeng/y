@@ -83,22 +83,10 @@
 -->
 
 
-				<div class="col-sm-4">
-					<ul class="list-group">
-						<li class="list-group-item active">Place of the day<span class="badge"><%= tasks.d.length %></span></li>
-						<% tasks.d.forEach(function(task) { %>
-						<div class="input-group">
-							<li class="list-group-item"><%= task.lastName %></li>
-							<span class="input-group-btn">
-								<form action="/tasks/<%= task._id %>?_method=put" method="post">
-									<input type="hidden" name="status" value="done">
-									<button class="btn btn-success" type="submit"><strong><span class="glyphicon glyphicon-check" aria-hidden="true"></span></strong></button>
-								</form>
-							</span>
-						</div>
-						<% }) %>
-					</ul>
-				</div>
+				<!--<div class="col-sm-4">-->
+					<!--<ul class="list-group">-->
+					<!--</ul>-->
+				<!--</div>-->
 				<div class="col-sm-4">
 					<ul class="list-group">
 						<li class="list-group-item active">Tip of the day<span class="badge"><%= tasks.o.length %></span></li>
@@ -117,8 +105,8 @@
 				</div>
 				<div class="col-sm-4">
 					<ul class="list-group">
-						<li class="list-group-item active">Fact of the day<span class="badge"><%= tasks.k.length %></span></li>
-						<% tasks.k.forEach(function(task) { %>
+						<li class="list-group-item active">Fact of the day<span class="badge"><%= tasks.j.length %></span></li>
+						<% tasks.j.forEach(function(task) { %>
 						<div class="input-group">
 							<li class="list-group-item"><%= task.lastName %></li>
 							<span class="input-group-btn">

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c5e562-096e-4676-a588-33195a133977" name="Default" comment="k">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/k.js" afterPath="$PROJECT_DIR$/models/k.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/s.txt" afterPath="$PROJECT_DIR$/routes/s.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/tasks.js" afterPath="$PROJECT_DIR$/routes/tasks.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tasks/index.ejs" afterPath="$PROJECT_DIR$/views/tasks/index.ejs" />
     </list>
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -54,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="s.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/s.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -77,8 +76,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="73" column="78" lean-forward="false" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +86,8 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="307">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,8 +96,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/tasks/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -107,8 +106,8 @@
       <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,11 +135,11 @@
       <find>if (obj</find>
       <find>delete</find>
       <find>a:</find>
-      <find>getSeperatedTask</find>
-      <find>inprogressTasks</find>
       <find>my_task</find>
-      <find>d:</find>
       <find>Task</find>
+      <find>d:</find>
+      <find>inprogressTasks</find>
+      <find>getSeperatedTask</find>
     </findStrings>
     <replaceStrings>
       <replace>d:</replace>
@@ -177,10 +176,10 @@
         <option value="$PROJECT_DIR$/models/Task.js" />
         <option value="$PROJECT_DIR$/models/h.js" />
         <option value="$PROJECT_DIR$/models/k.js" />
-        <option value="$PROJECT_DIR$/routes/tasks.js" />
-        <option value="$PROJECT_DIR$/views/tasks/index.ejs" />
         <option value="$PROJECT_DIR$/routes/s.txt" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/views/tasks/index.ejs" />
+        <option value="$PROJECT_DIR$/routes/tasks.js" />
       </list>
     </option>
   </component>
@@ -294,6 +293,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mean-board-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean-board-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean-board-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,7 +792,7 @@
       <updated>1481513581097</updated>
       <workItem from="1481513584608" duration="1463000" />
       <workItem from="1481515997073" duration="1957000" />
-      <workItem from="1481524327966" duration="25679000" />
+      <workItem from="1481524327966" duration="26503000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1481513784703</created>
@@ -816,7 +833,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29099000" />
+    <option name="totallyTimeSpent" value="29923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="130" width="1918" height="862" extended-state="0" />
@@ -1169,34 +1186,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/tasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1209,6 +1202,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/s.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/k.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1217,7 +1226,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/models/Task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1227,24 +1236,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tasks/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="73" column="78" lean-forward="false" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/s.txt">
+    <entry file="file://$PROJECT_DIR$/routes/tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 // tasks.js
 
 var express = require('express');
-var Task = require('../models/Task');
+var Task = require('../models/k.js');
 var k = require('../models/k');
 
 var router = express.Router();
@@ -155,11 +155,20 @@ function doAdelay()
     setTimeout(function(){return true;},3000);
 
 }
+
+
+/*
+ the name doesn't mean anything it isjust a symbol to represent something you just need to map it and return tit to front and that is t all
+
+
+ */
 function getSeperatedTask(tasks) {
     var obj = {
         todoTasks: [],
         inprogressTasks: [],
-        doneTasks: []
+        doneTasks: [],
+        o: [],
+        j: []
     };
 
 
@@ -168,6 +177,9 @@ function getSeperatedTask(tasks) {
             case "a":
                 obj.todoTasks.push(task);
                 break;
+            // case "d":
+            //     obj.d.push(task);
+            //     break;
             case "s":
                 obj.inprogressTasks.push(task);
                 break;
