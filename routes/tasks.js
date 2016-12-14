@@ -2,6 +2,7 @@
 
 var express = require('express');
 var Task = require('../models/Task');
+var k = require('../models/k');
 
 var router = express.Router();
 
@@ -18,6 +19,7 @@ fs.readFile( 'C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', 
 router.get('/', function(req, res) {
 	Task.find({}, function(err, tasks) {
 		if (err) res.json(err);
+		console.log(tasks);
 		res.render('tasks/index', { tasks: getSeperatedTask(tasks) });
 	});
 });
@@ -49,7 +51,23 @@ router.put('/:id', function(req, res) {
 router.delete('/:id', function(req, res) {
 	Task.remove({_id: req.params.id}, function(err, task) {
 		if (err) res.json(err);
-		res.redirect('/tasks');
+
+		/*
+        k.create(req.body, function(err, task) {
+            if (err) res.json(err);
+            // res.redirect('/tasks');
+            // fs.readFile( 'C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', function (err, data) {
+            //     if (err) {
+            //         throw err;
+            //     }
+            console.log(Object.prototype.toString.call(req.body));
+            console.log(req.body.toString());
+            // });
+        });
+		*/
+
+
+        res.redirect('/tasks');
 	});
 });
 
