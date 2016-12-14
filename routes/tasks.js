@@ -164,18 +164,49 @@ function getSeperatedTask(tasks) {
 
 
     tasks.forEach(function (task) {
-        switch (task.status) {
-            case "to-do":
+        switch (task.d) {
+            case "a":
                 obj.todoTasks.push(task);
                 break;
-            case "in-progress":
+            case "s":
                 obj.inprogressTasks.push(task);
                 break;
-            case "done":
+            case "d":
                 obj.doneTasks.push(task);
+                break;            case "o":
+                obj.o.push(task);
+                break;            case "k":
+                obj.j.push(task);
                 break;
         }
     });
 
     return obj;
 }
+/*
+
+
+{
+    "employees":[
+    {
+        d:"a",
+        "lastName":"asfasdf"
+    },
+    {
+        d:"d",
+        "lastName":"kjhasldkfh"
+    },
+    {
+        d:"s",
+        "lastName":"ajflasjdlfj"
+    },
+    {
+        d:"k",
+        "lastName":"Dosfnaksdfle"
+    },
+    {
+        d:"o",
+        "lastName":"Dasdfiugbkoe"
+    },
+]
+}*/

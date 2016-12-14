@@ -5,7 +5,7 @@ var ejs = require('ejs');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
-var Task = require('./models/Task.js');
+var Task = require('./models/k.js');
 
 // DB Connection
 // var mongoLocal = "mongodb://localhost/test" 
@@ -55,22 +55,58 @@ fs.readFile( 'C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', 
     // var a = JSON.parse(data.string);
 
     var obj = JSON.parse(data);
+
     var length = obj.employees.length;
 
-    var ta= new Task();
-    ta.status="to-do";
-    ta.my_task="bbbbbbbbbbbbbbbbbbbbbbbbb";
-
     for (var i in obj.employees) {
-        Task.create(ta, function(err, task) {
+
+        var ta= new Task ();
+        ta.d=obj.employees[i].d;
+        ta.lastName=obj.employees[i].lastName;
+        ta.o=new Date();
+
+
+        Task .create(ta, function(err, task) {
             // if (err) res.json(err);
         });
     }
 
+fs.writeFile('C:/Users/SiyuanZeng\'s/Downloads/mean-board-master/routes/s.txt', '', function(){console.log('done')})
 
-    console.log(obj.employees[1].firstName + " " + obj.employees[1].lastName);
 
-    console.log(data.toString());
+    // console.log(obj.employees[1].firstName + " " + obj.employees[1].lastName);
+
+    // console.log(data.toString());
     // console.log(a);
 });
 
+// read file, i don't have to commit. read it and delete
+// a  lot of time are swated in undersanding and to know which prot conect to which port
+// load and show hrer and i can clearn it every now and then
+// when to clean it , i don't want to do it myself
+// i want o load only once
+//     empty after load
+// load to one thing and decide by type
+//
+
+
+// one schema
+// write only
+// read by type
+// compare the date
+// sort by date
+// show 3
+//
+//
+
+
+
+
+
+
+
+// i want to show one week
+// 1. clean after u 7 days
+// 2. i want to only show 3, next and previous
+//
+//
